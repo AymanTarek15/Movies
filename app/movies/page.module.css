@@ -1,0 +1,25 @@
+.main{
+  text-align: center;
+}
+.moviesPageContainer{
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 1rem; */
+  justify-content: center;
+  /* width: auto; */
+}
+
+.li{
+  list-style: none;
+}
+
+.movieContainer{
+  width: 12rem;
+  margin: 0 1rem;
+  border-radius: 1rem solid;
+  /* border: 0.1rem solid; */
+  /* height: 40rem; */
+  text-align: center;
+  cursor: pointer;
+  /* background-color: rgb(206, 199, 199); */
+}

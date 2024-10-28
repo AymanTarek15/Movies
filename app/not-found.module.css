@@ -1,0 +1,22 @@
+/* app/not-found.module.css */
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+.title {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.message {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.link {
+  font-size: 1.2em;
+  color: #0070f3;
+  text-decoration: underline;
+}

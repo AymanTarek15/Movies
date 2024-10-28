@@ -1,0 +1,26 @@
+.main{
+  margin-left: 1rem;
+}
+.moviesPageContainer{
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: flex-start;
+
+}
+
+.li{
+  list-style: none;
+}
+
+.movieContainer{
+
+  height: auto;
+  margin: 0 0.1rem;
+  border-radius: 1rem solid;
+
+  text-align: center;
+  cursor: pointer;
+  
+}
+

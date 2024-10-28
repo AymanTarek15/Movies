@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+  
+  align-items: center;
+  background-color: #141414;
+  padding: 10px 20px;
+
+  margin-left: 0 !important;
+}
+
+.navItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0rem 2rem;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+}
+
+.navLinks li {
+  padding: 0 15px;
+}
+
+.navLinks a {
+  
+  color: rgb(180, 178, 178);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navLinks a:hover {
+  
+  color: white;
+}
+
+.navLinks .active{
+  color: white;
+}
+
+.logo a img, .profileIcon img {
+  vertical-align: middle;
+}
+
+
+.btn :hover{
+  cursor: pointer;
+}
+
+.search{
+  padding: 1rem 1rem;
+  margin: 0 1rem;
+  border-radius: 2rem;
+}
+
+@media (max-width:480px) {
+  .navItems {
+    display: none;
+  }
+}
