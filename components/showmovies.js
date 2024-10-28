@@ -45,7 +45,7 @@ export default function ShowMovies({ category, selectedMovies }) {
                 className={styles.movieContainer}
               >
                 <Image 
-                  src={`/images/${movie.image}`} 
+                  src={`/${movie.image}`} 
                   alt={movie.movie} 
                   width={130} 
                   height={200} 
