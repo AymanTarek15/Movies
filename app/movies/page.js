@@ -47,7 +47,7 @@ export default function MoviesPage({children}) {
             transition={{ type: 'spring' }}
             key={movie.id}
             className={styles.movieContainer}>
-            <Image src={`/movies/${movie.image}`} alt={movie.movie} width={200} height={250} />
+            <Image src={`/${movie.image}`} alt={movie.movie} width={200} height={250} />
             {/* <h3>{movie.movie}</h3> */}
             </motion.div>
             
